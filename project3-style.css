@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 4rem;
+    color: burlywood;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+body {
+    background-image: url("game-bg.jpg");
+    background-size: cover;
+}
+.border:hover {
+    border: 3px solid white;
+    opacity: 0.85;
+    cursor: pointer;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    
+
+}
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9 {
+    height: 180px;
+    width : 180px;
+    border: 2px solid black;
+    margin: 0.25rem;
+    background-image: url("game-bg2.jpg");
+    background-size: cover;
+    font-size: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
